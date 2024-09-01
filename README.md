@@ -1,23 +1,24 @@
-# JavaScript Meme Generator
+# Programming Meme Generator
 
-This project is a simple web application that generates memes using the Meme API. The application displays a random meme with the title and author information. You can generate a new meme by clicking the "Generate Meme" button.
+This project is a simple web application that generates programming-related memes using the Programming Memes API. The application displays a random meme along with its ID. You can generate a new meme by clicking the "Generate Meme" button.
 
 ## Features
-- Fetches memes from the Meme API (`https://meme-api.com/gimme/wholesomememes`)
-- Displays the meme image, title, and author
+- Fetches memes from the Programming Memes API (`https://programming-memes-images.p.rapidapi.com/v1/memes`)
+- Displays the meme image and ID
 - Refreshes with a new meme upon button click
 
 ## Project Structure
 - `index.html`: The main HTML file that sets up the basic structure of the page.
 - `style.css`: The CSS file for styling the HTML elements.
-- `meme.js`: The JavaScript file that handles the API calls and dynamic content update.
+- `meme.js`: The JavaScript file that handles the API calls and dynamic content updates.
 
 ## How It Works
-1. The application fetches a random meme from the Meme API.
-2. The meme's title, image, and author are displayed on the page.
+1. The application fetches a random programming meme from the Programming Memes API.
+2. The meme's image and ID are displayed on the page.
 3. Clicking the "Generate Meme" button triggers a new API call to fetch a different meme.
 
 ## Getting Started
+
 ### Prerequisites
 To run this project, you'll need:
 - A modern web browser
@@ -32,11 +33,10 @@ To run this project, you'll need:
 - HTML
 - CSS
 - JavaScript
-- [Meme API](https://meme-api.com)
+- [Programming Memes API](https://programming-memes-images.p.rapidapi.com)
 
 ## License
 This project is open-source and available under the MIT License.
 
 ## Acknowledgments
-- Thanks to the Meme API for providing the meme content.
-
+- Thanks to the Programming Memes API for providing the meme content.
